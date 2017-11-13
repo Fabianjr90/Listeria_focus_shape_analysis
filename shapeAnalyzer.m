@@ -52,8 +52,6 @@ for ii = 1:length(weight)
     end
 end
 
-
-
 %% we perform a series of statistical test and extract outermost contour
 [univarPercent,bvnPercent] = normalityTest(bactpos);
 x = bactpos(:,1);
