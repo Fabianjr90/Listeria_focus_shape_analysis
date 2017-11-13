@@ -70,9 +70,6 @@ myImage = fnMass2Image([y,x]',[myLimit myLimit]);
 
 [arrFilledContours, arrContourLevels,contourX,contourY] = ...
     fnExtractContours(myImage, nContours);
-% hold on
-% plot(contourX,contourY,'Linewidth',5,'color','m')
-% hold off
 
 % export image of largest contour (to be processed further)
 figure,plot(contourX,-contourY,'Linewidth',5,'color','k')
