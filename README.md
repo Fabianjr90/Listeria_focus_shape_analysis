@@ -10,3 +10,5 @@ The **WT_WT.mp4** movie shows wild-type bacteria (red) spreading inside wild-typ
 The **ActA-del.mp4** movie shows mutant bacteria (green) that have lost the ability to move from cell to cell.
 
 The **shape_analysis.md** file shows the output of **shapeAnalyzer.m**, a MATLAB script that takes in the raw image of a bacterial focus and outputs the contour lines of the focus according to the blurred fluorescence intensity.
+
+**test.tif** is a raw still image from a time-lapse series. It is the input for **shapeAnalyzer.m**.
