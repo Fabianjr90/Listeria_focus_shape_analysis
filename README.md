@@ -1,5 +1,5 @@
-#Listeria_spread_movies
-======
+# Listeria_spread_movies
+
 
 This folder contains time-lapse data of Listeria monocytogenes spread from cell to cell.
 The bacteria (in red or green) are swimming inside the cytoplasm of gut-like human cells (nuclei in blue).
