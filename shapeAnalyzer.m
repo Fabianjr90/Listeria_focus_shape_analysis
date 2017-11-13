@@ -4,7 +4,6 @@ clc;clear;close all;
 % the matrix the appropriate mass.
 
 %% Load image and convert from integer to double
-
 arrImg_raw = fnImRead('test.tif');
 arrImg_raw = double(arrImg_raw);
 arrImg_raw = imgaussfilt(arrImg_raw, 5);
